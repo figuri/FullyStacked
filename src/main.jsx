@@ -28,8 +28,53 @@ const router = createBrowserRouter([
                 element: <HTML/>
             },
             {
-                
+                path: '/api',
+                element: <API/>
+            },
+            {
+                path: '/node',
+                element: <Node/>
+            },
+            {
+                path: '/oop',
+                element: <OOP/>
+            },
+            {
+                path: '/express',
+                element: <Express/>
+            },
+            {
+                path: '/sql',
+                element: <MySQL/>
+            },
+            {
+                path: '/orm',
+                element: <ORM/>
+            },
+            {
+                path: '/compsci',
+                element: <CompSci/>
+            },
+            {
+                path: '/nosql',
+                element: <NoSql/>
+            },
+            {
+                path: '/pwa',
+                element: <PWA/>
+            },
+            {
+                path: '/react',
+                element: <React/>
+            },
+            {
+                path: '/graphql',
+                element: <GraphQl/>
             }
         ]
     }
-])
+]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <RouterProvider router={router} />
+);

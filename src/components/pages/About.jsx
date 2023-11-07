@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function About() {
     const emailAddress = 'samtisme@gmail.com'
   return (

@@ -4,6 +4,22 @@ import App from './app.jsx'
 import './index.css'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Home from './components/pages/Home.jsx'
+import About from './components/pages/About.jsx'
+import Javascript from './components/pages/JavaScript.jsx'
+import HTML from './components/pages/Html.jsx'
+import CSS from './components/pages/Css.jsx'
+import Express from './components/pages/Express.jsx'
+import Api from './components/pages/Api.jsx'
+import Node from './components/pages/Node.jsx'
+import Oop from './components/pages/Oop.jsx'
+import Orm from './components/pages/Orm.jsx'
+import Pwa from './components/pages/Pwa.jsx'
+import Graphql from './components/pages/Graphql.jsx'
+import Sql from './components/pages/Sql.jsx'
+import MongoDB from './components/pages/MongoDB.jsx'
+import Reactjs from './components/pages/React.jsx'
+import CompSci from './components/pages/ComputerScience.jsx'
 
 const router = createBrowserRouter([
     {
@@ -21,7 +37,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/js',
-                element: <JavaScript/>
+                element: <Javascript/>
             },
             {
                 path: '/html',
@@ -33,7 +49,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/api',
-                element: <API/>
+                element: <Api/>
             },
             {
                 path: '/node',
@@ -41,7 +57,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/oop',
-                element: <OOP/>
+                element: <Oop/>
             },
             {
                 path: '/express',
@@ -49,11 +65,11 @@ const router = createBrowserRouter([
             },
             {
                 path: '/sql',
-                element: <MySQL/>
+                element: <Sql/>
             },
             {
                 path: '/orm',
-                element: <ORM/>
+                element: <Orm/>
             },
             {
                 path: '/compsci',
@@ -61,19 +77,19 @@ const router = createBrowserRouter([
             },
             {
                 path: '/nosql',
-                element: <NoSql/>
+                element: <MongoDB/>
             },
             {
                 path: '/pwa',
-                element: <PWA/>
+                element: <Pwa/>
             },
             {
                 path: '/react',
-                element: <React/>
+                element: <Reactjs/>
             },
             {
                 path: '/graphql',
-                element: <GraphQl/>
+                element: <Graphql/>
             }
         ]
     }

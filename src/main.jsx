@@ -28,6 +28,10 @@ const router = createBrowserRouter([
                 element: <HTML/>
             },
             {
+                path: '/css',
+                element: <CSS/>
+            },
+            {
                 path: '/api',
                 element: <API/>
             },

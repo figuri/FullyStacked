@@ -1,6 +1,12 @@
 import React from "react";
 
 export default function Html() {
+    const htmlCode =`
+    <header>
+        <div>
+           <p>Hello World!</p>
+        </div>
+    </header>`
   return (
     <section>
       <div>
@@ -23,9 +29,7 @@ export default function Html() {
         <h2>Html Code example</h2>
         <pre>
           <code>
-            &lt;div class="example"&gt; &lt;p&gt;Hello, World!&lt;/p&gt;
-            &lt;ul&gt; &lt;li&gt;Item 1&lt;/li&gt; &lt;li&gt;Item 2&lt;/li&gt;
-            &lt;li&gt;Item 3&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;
+            {htmlCode}
           </code>
         </pre>
         <p>the code above is a generic div tag that is the parent element of the child elements contained within it. Like most programming languages html elements have priority within the document. when writing your html code make sure to follow semantic structure so that your html code is readable. using the correct or "semantic" tag names for your html code is best practice and will help you an others understand the code better. such as making the header a "header" tag or a side peice of information "aside" or "article".</p>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home() {
     return (
         <section>
-            <h2>Fully Stacked</h2>
+            <h2>Web Development</h2>
             <div>
                 <p>This Webpage is a guide to full stack web development.
                     below is a short introduction to websites and how they work.

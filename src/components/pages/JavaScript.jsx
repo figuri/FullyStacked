@@ -134,21 +134,83 @@ fetchData().then(data => {
                   blocks for most JavaScript programs.
                 </li>
                 <li>
-                  Object: A compound data type that can store key-value pairs.
-                  Objects can represent complex entities and are the building
-                  blocks for most JavaScript programs.
+                  Array: A specialized type of object that represents an
+                  ordered, numerically indexed list of values.
                 </li>
                 <li>
-                  Object: A compound data type that can store key-value pairs.
-                  Objects can represent complex entities and are the building
-                  blocks for most JavaScript programs.
+                  Function: A callable object that can be invoked with
+                  arguments. Functions are first-class citizens in JavaScript
+                  and can be assigned to variables, passed as arguments, and
+                  returned as values.
                 </li>
               </ul>
               <h2>Methods</h2>
-              <p>Objects are a a pair of keys and values. I am sam so if i were an object one such pair might be my name; the key being name and the value being sam. A method is when the value or "property" is a function. sam plays chess so one such "method" might be "playchess" and the value could be a boolean of true since I love chess!</p>
+              <p>
+                Objects are a a pair of keys and values. I am sam so if i were
+                an object one such pair might be my name; the key being name and
+                the value being sam. A method is when the value or "property" is
+                a function. sam plays chess so one such "method" might be
+                "playchess" and the value could be a boolean of true since I
+                love chess!
+              </p>
+            </li>
+            <li>
+              <h2>Functions</h2>
+              <p>
+                Functions in JavaScript allow you to encapsulate code into
+                reusable blocks. Functions can take parameters and return
+                values.
+              </p>
+              <pre>
+                <code>{functionCode}</code>
+              </pre>
+            </li>
+            <li>
+              <h2>DOM manipulation</h2>
+              <p>
+                JavaScript can manipulate the DOM, which represents the
+                structure of a web document. Developers can access and modify
+                HTML elements, their attributes, and content dynamically.
+                Example: Changing text content of an element
+              </p>
+              <pre>
+                <code>{domCode}</code>
+              </pre>
+            </li>
+            <li>
+              <h2>Events</h2>
+              <p>
+                JavaScript enables developers to respond to various events
+                triggered by users, such as button clicks, mouse movements, and
+                keyboard input. Example: Handling a button click event
+              </p>
+              <pre>
+                <code>{eventCode}</code>
+              </pre>
+            </li>
+            <li>
+              <h2>Asynchronous Programming</h2>
+              <p>
+                JavaScript supports asynchronous programming through features
+                like callbacks, promises, and async/await, allowing tasks such
+                as fetching data from servers to be performed without blocking
+                the execution of the rest of the code. Example: Using Promises
+                for asynchronous operations
+              </p>
+              <pre>
+                <code>{asyncCode}</code>
+              </pre>
             </li>
           </ul>
-          <p>In summary Javascript is a very powerful and complex programming language and no one source would ever be enough to encapsulate all of its wonders.  It runs in web browsers, allowing for client-side interactivity, and it can also be used on server-side platforms. With its rich features, JavaScript is a key technology for modern web development, making websites more engaging, responsive, and user-friendly. Its all up to the writers imagination. </p>
+          <p>
+            In summary Javascript is a very powerful and complex programming
+            language and no one source would ever be enough to encapsulate all
+            of its wonders. It runs in web browsers, allowing for client-side
+            interactivity, and it can also be used on server-side platforms.
+            With its rich features, JavaScript is a key technology for modern
+            web development, making websites more engaging, responsive, and
+            user-friendly. Its all up to the writers imagination.{" "}
+          </p>
         </div>
       </div>
     </section>
